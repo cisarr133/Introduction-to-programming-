@@ -1,0 +1,15 @@
+def is_even_or_odd(n):
+    return f"{n} is even." if n % 2 == 0 else f"{n} is odd."
+
+def main():
+    try:
+        value = int(input("Enter an integer: ").strip())
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+        return
+
+    result = is_even_or_odd(value)
+    print(result)
+
+if __name__ == "__main__":
+    main()

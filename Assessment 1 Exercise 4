@@ -1,0 +1,9 @@
+def main():
+    answer = input("What is the capital of France? ").strip().lower()
+    if answer == "paris":
+        print("Correct. Paris is the capital of France.")
+    else:
+        print("Wrong. The correct answer is Paris.")
+
+if __name__ == "__main__":
+    main()
